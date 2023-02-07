@@ -1,0 +1,9 @@
+<section class="films">
+    <h2>{{content.title}}</h2>
+    <ul>
+        <li *ngFor="let films of content.media">
+            <img src="{{films.src}}" alt="{{films.alt}}" />
+        </li>
+    </ul>
+
+</section>
